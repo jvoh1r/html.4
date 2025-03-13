@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body{
+    background: rgb(236, 224, 50);
+    text-align: center;
+}
+    ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    background-color:  rgb(103, 103, 101);
+    }
+    li{
+    height: 60px;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    li:hover{
+    background-color: rgb(212, 19, 19);
+    }
+    a{
+    font-size: 30px;
+    width: 100%;
+    color: white;
+    }
+    .banner{
+    margin-top: 30px;
+    }
+    form{
+    margin-top: 30px;
+    text-align: center;
+    }
+    fieldset{
+        text-align: center;
+    }
